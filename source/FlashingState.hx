@@ -30,6 +30,7 @@ class FlashingState extends MusicBeatState
            We apologize if the psych engine owner was offended.
           We promise not to do that again...\n
 			32);
+			
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
