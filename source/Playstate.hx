@@ -73,8 +73,8 @@ class PlayState extends MusicBeatState
 		['Shit', 0.4], //From 20% to 39%
 		['Bad', 0.5], //From 40% to 49%
 		['Bruh', 0.6], //From 50% to 59%
-		['Noob, 0.69], //From 60% to 68%
-		['Lol', 0.7], //69%
+		['Noob', 0.69], //From 60% to 68%
+		['Lol haha', 0.7], //From 69% 68
 		['Not bad', 0.8], //From 70% to 79%
 		['Nice', 0.9], //From 80% to 89%
 		['Good!', 1], //From 90% to 99%
