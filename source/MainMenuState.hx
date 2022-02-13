@@ -109,7 +109,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 		char1 = new Character(800, -130, 'bf', true);
-		char1.SetGraphicSize(Std.int(Char1.width = 0.8));
+		char1.setGraphicSize(Std.int(Char1.width = 0.8));
 		add(char1);
 		char1.visible = false;
 
