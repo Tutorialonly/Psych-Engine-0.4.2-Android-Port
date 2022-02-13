@@ -170,7 +170,7 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 5.6, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
-         if (optionShit[curSelected] == 'story_mode','freeplay','awards','creadits')
+         if (optionShit[curSelected] == 'story_mode','freeplay','awards','creadits');
          {
               changeItem(-1);
               changeItem(1);
