@@ -1,0 +1,2 @@
+Value 1: how long to tween
+How big of a tween (in degrees) (360 for one spin, 720 for 2 spins)
