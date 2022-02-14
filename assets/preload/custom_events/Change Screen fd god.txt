@@ -1,0 +1,2 @@
+Turns the blue screen on.
+Used in "Censory Overload" and "Termination".
