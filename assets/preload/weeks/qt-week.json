@@ -1,0 +1,49 @@
+{
+	"storyName": "qt",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "qt",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Carefree",
+			"qt",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Careless",
+			"qt",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Censory-overload",
+			"robot",
+			[
+				120,
+				120,
+				120
+			]
+		]
+	],
+	"weekCharacters": [
+		"qt",
+		"bf",
+		"gf"
+	],
+	"weekName": "Custom Week"
+}

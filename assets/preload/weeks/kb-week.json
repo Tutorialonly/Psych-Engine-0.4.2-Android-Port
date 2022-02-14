@@ -1,0 +1,40 @@
+{
+	"storyName": "g.o.o.d. l.u.c.k.",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "robot",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"kb_angry",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Termination",
+			"robot",
+			[
+				120,
+				120,
+				120
+			]
+		],
+		[
+			"Termination-duet",
+			"robotrage",
+			[
+				120,
+				120,
+				120
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Custom Week"
+}

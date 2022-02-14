@@ -1,0 +1,48 @@
+{
+	"storyName": "Your New Week",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"final-destination",
+			"robot",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"just-die",
+			"robotrage",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"expurgation",
+			"robotrage",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekName": "Custom Week"
+}
