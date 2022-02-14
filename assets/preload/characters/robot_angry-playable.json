@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				60,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "KB_angryALT_idleBabyRage"
+		},
+		{
+			"offsets": [
+				30,
+				-170
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "KB_angry_Down"
+		},
+		{
+			"offsets": [
+				85,
+				65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "KB_angry_Up"
+		},
+		{
+			"offsets": [
+				151,
+				-140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "KB_angry_Right"
+		},
+		{
+			"offsets": [
+				-91,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "KB_angry_Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-170
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "KB_angry_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				85,
+				65
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "KB_angry_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				151,
+				-140
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "KB_angry_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				51
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "KB_angry_Left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/robot_angry-playable",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "robotfury",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		380,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

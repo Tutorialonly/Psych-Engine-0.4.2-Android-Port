@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-289,
+				-91
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "KB404ALT_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-258,
+				-54
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "KB404ALT_idleBabyRage",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-237,
+				135
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "KB404ALT_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-415,
+				121
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "KB404ALT_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-204,
+				-73
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "KB404ALT_Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-289,
+				-91
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "KB404ALT_Down"
+		},
+		{
+			"offsets": [
+				-237,
+				135
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "KB404ALT_Up"
+		},
+		{
+			"offsets": [
+				-415,
+				121
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "KB404ALT_Left"
+		},
+		{
+			"offsets": [
+				-204,
+				-73
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "KB404ALT_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/robot_404-angry-playable",
+	"position": [
+		-340,
+		80
+	],
+	"healthicon": "robotrage",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		30,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
