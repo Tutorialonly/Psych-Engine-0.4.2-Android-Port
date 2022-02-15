@@ -901,6 +901,14 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
+         var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 20,0,("Port by Raiden Alfares"), 24);
+        creditTxt.scrollFactor.set();
+        creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        creditTxt.borderColor = FlxColor.BLACK;
+        creditTxt.borderSize = 20;
+        creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
+        add(creditTxt);
+
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
@@ -942,6 +950,7 @@ class PlayState extends MusicBeatState
 					controls.setHitBoxNOTES(mcontrols._hitbox);
 				default:
 			}
+
 			trackedinputsNOTES = controls.trackedinputsNOTES;
 			controls.trackedinputsNOTES = [];
 
@@ -953,6 +962,11 @@ class PlayState extends MusicBeatState
 			mcontrols.visible = false;
 
 			add(mcontrols);
+			
+			if (curSong == 'Bopeebo') {
+		        addVirtualPad(NONE, A);
+			}
+			
 		#end		
 
 		// if (SONG.song == 'South')
@@ -1846,7 +1860,23 @@ class PlayState extends MusicBeatState
 		/*if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
-		}*/
+		}*/var dodge:Bool = false;
+        var canDodge:Bool = true;
+
+        if (controls.ACCEPT) {
+            if (canDodge) {
+                dodge = true;
+                canDodge = false;
+                //write here code that might be executed when you dodging
+                boyfriend.playAnim('dodge');
+                new FlxTimer().start(1, function(tmr:FlxTimer) {
+                    dodge = false;
+                    canDodge = true;
+                });
+            } else {
+                // code that will be executed if you press A when you already in dodge, if not needed leave here empty line
+            }
+        }
 
 		callOnLuas('onUpdate', [elapsed]);
 
