@@ -963,7 +963,7 @@ class PlayState extends MusicBeatState
 
 			add(mcontrols);
 			
-			if (curSong == 'Bopeebo') {
+			if (curSong == 'Extermination') {
 		        addVirtualPad(NONE, A);
 			}
 			
